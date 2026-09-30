@@ -6,5 +6,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKirimPesan"
+        android:text="Kirim Pesan"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSetAlarm"
+        android:text="Set Alarm"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etURL"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Masukkan URL"
+        android:layout_gravity="center">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOpenURL"
+        android:text="Open URL"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSetEvent"
+        android:text="Set Event"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivHasil"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_gravity="center">
+    </ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetPhoto"
+        android:text="Get Photo"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBukaMaps"
+        android:text="Buka Map"
+        android:layout_gravity="center"
+        android:layout_marginVertical="16dp">
+    </Button>
+
 </LinearLayout>
